@@ -1,0 +1,209 @@
+body {
+    background: #7cc0ef;
+}
+
+.frm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mycard-2 {
+    width: 450px;
+    height: 500px;
+    border: none;
+    display: inline;
+    margin-left: 50px;
+    text-align: #fcfcfd;
+    padding-top: 0px;
+    border-radius: 10px;
+    margin-top: 120px;
+    padding-left: 330px;
+    padding-right: 30px;
+    background: #fcfcfd;
+    box-shadow: 2px 2px 35px #40444882;
+}
+
+.name {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    background: #d1d5d849;
+    outline: none;
+    font-family: 'josefin sans regular';
+}
+
+.e-mail {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    background: #d1d5d849;
+    outline: none;
+    font-family: 'josefin sans regular';
+}
+
+.des {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-bottom: 80px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    background: #d1d5d849;
+    outline: none;
+    font-family: 'josefin sans regular';
+}
+
+.btn {
+    border: none;
+    border-radius: 20px;
+    background: #103f6f;
+    padding: 10px 40px;
+    text-align: center;
+    font-family: 'Josefin Sans bold';
+    color: aliceblue;
+    background: #6fb5e6;
+    box-shadow: 2px 2px 20px #6fb5e6;
+}
+
+.mycard {
+    width: 350px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    background: #103f6f;
+    margin-right: 500px;
+    display: block;
+    margin-top: -500px;
+    box-shadow: 2px 2px 10px #40444882;
+}
+
+.pin {
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    display: ;
+    padding-top: 10px;
+    text-align: center;
+    color: #7cc0ef;
+}
+
+.email {
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    display: ;
+    margin-top: -510px;
+    text-align: center;
+    color: #7cc0ef;
+}
+
+.man {
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    display: ;
+    margin-top: -10px;
+    text-align: center;
+    color: #7cc0ef;
+}
+
+.mobile {
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    display: ;
+    margin-top: -5px;
+    text-align: center;
+    color: #7cc0ef;
+}
+
+.sarcastic {
+    display: block;
+    text-align: left;
+    margin-top: -45px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    color: #6286a6;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.sar {
+    display: block;
+    text-align: left;
+    margin-top: -40px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    color: #6286a6;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.mob {
+    display: block;
+    text-align: left;
+    margin-top: -45px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    color: #6286a6;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.adress {
+    display: block;
+    text-align: left;
+    margin-top: -70px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    color: #6286a6;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.con {
+    font-family: 'Josefin Sans light';
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+    display: bock;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.get {
+    font-family: Josefin Sans regular;
+    color: #6286a6;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.feel {
+    font-family: 'josefin sans regular';
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: #a7aeb4;
+    text-align: left;
+}

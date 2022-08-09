@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <style>
+        .body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url(back.jpg);
+            background-size: cover;
+        }
+        
+        .mycard {
+            padding: 30px;
+            border-radius: 10px;
+            width: 450px;
+            height: 700px;
+            box-sizing: border-box;
+            border: none;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.147);
+            background: #757F9A;
+            background: -webkit-linear-gradient(to right, #d7dde87f, #757f9a71);
+            background: linear-gradient(to right, #d7dde868, #757f9a5b);
+            backdrop-filter: blur(8px);
+            /*use to make background blur */
+        }
+        
+        .sign-up {
+            text-align: center;
+            font-family: lineat;
+            font-size: 30px;
+            margin-top: -5px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.305);
+        }
+        
+        .f-name {
+            font-family: comfortaa;
+            font-weight: bold;
+            font-size: 15px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.415);
+        }
+        
+        .l-name {
+            font-family: comfortaa;
+            font-weight: bold;
+            font-size: 15px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.415);
+        }
+        
+        .mail {
+            font-family: comfortaa;
+            font-weight: bold;
+            font-size: 15px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.415);
+        }
+        
+        .num {
+            font-family: comfortaa;
+            font-weight: bold;
+            font-size: 15px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.415);
+        }
+        
+        .pass {
+            font-family: comfortaa;
+            font-weight: bold;
+            font-size: 15px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.415);
+        }
+        
+        .name {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.147);
+            outline: none;
+        }
+        
+        .mail-input {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.147);
+            outline: none;
+        }
+        
+        .num-input {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.147);
+            outline: none;
+        }
+        
+        .pass-input {
+            display: inline;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.147);
+            outline: none;
+        }
+        
+        .btn {
+            font-family: lineat;
+            font-size: 18px;
+            border-radius: 8px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.415);
+            padding: 15px;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            margin-top: 30px;
+            border: none;
+            background: rgb(10, 235, 235);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.649);
+        }
+    </style>
+
+</head>
+
+<body class="body">
+
+    <div class="mycard">
+        <h1 class="sign-up">REGISTER</h1>
+
+        <form>
+
+            <h3 class="f-name">First Name</h3>
+            <input class="name" style=" margin-top: -10px;" type="text" name="First Name" placeholder="First Name">
+
+            <h3 class="l-name">Last Name</h3>
+            <input class="name" style="margin-bottom: 30px; margin-top: -10px;" type="text" name="Last Name" placeholder="Last Name">
+
+            <h3 class="mail">Enter your e-mail</h3>
+            <input class="mail-input" style="margin-bottom: 30px; margin-top: -10px;" type="email" name="E-mail" placeholder="E-mail">
+
+            <h3 class="num">Mobile Number</h3>
+            <input class="num-input" style="margin-bottom: 30px; margin-top: -10px;" type="number" name="" placeholder="Mobile Number">
+
+            <h3 class="pass">Password</h3>
+            <input class="pass-input" style=" margin-top: -10px;" type="password" name="" placeholder="Enter your password">
+
+            <h3 class="pass">Confirm Password</h3>
+            <input class="pass-input" style=" margin-top: -10px;" type="password" name="" placeholder="Confirm password">
+
+            <button class="btn"> 
+                Sign~UP
+            </button>
+
+
+
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

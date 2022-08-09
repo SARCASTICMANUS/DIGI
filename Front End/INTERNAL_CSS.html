@@ -1,0 +1,83 @@
+<!--INTERNAL CSS-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERNAL CSS</title>
+
+    <style>
+        /* NAME SELECTER */
+        
+        H3 {
+            /* SHORT HAND PROPERTY */
+            /* hexa valu 1-9 &a-f */
+            /* RGB value - 0-255 */
+            text-decoration: dashed underline tomato;
+            background: rgb(299, 281, 196);
+            border: 5px solid khaki;
+            width: 450px;
+            height: 80px;
+            font-size: 30px;
+        }
+        /* applying styling on multiple selector
+
+        /* h3,
+        p {
+            color: aqua;
+        } */
+        /* CLASS SELECTOR */
+        
+        .mytag {
+            color: rebeccapurple;
+        }
+        
+        .mytagg {
+            font-size: 20px;
+            color: goldenrod;
+            font-family: '4k&A';
+            border: 5px solid;
+            background-color: beige;
+        }
+        /* ID selector */
+        
+        #myid {
+            color: green;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            background-color: aquamarine;
+        }
+        
+        .btncls {
+            color: aquamarine !important;
+            background-color: black;
+            border: 2px solid khaki;
+        }
+        
+        .btncls2 {
+            color: khaki;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3 class="mytag">Internal css is used to style multiple tags at once</h3>
+    <h3>Internal css is used with style tag inside head tag</h3>
+    <h3>Internal css is preferred <span style="color: gray;">while</span> desgning entire page </h3>
+
+    <p class="mytagg">Class selector are used to select element by their class name</p>
+
+    <p id="myid">ID selector are used to uniqely select element</p>
+
+    <p> ID HAS HIGGER PRIORTY THAN CLASS AND NAME SELECTOR </p>
+    <p>INLINE CSS HAS THE HIGEST PRIORTY</p>
+
+    <button class="btncls btncls2">CLICK ME</button>
+
+</body>
+
+</html>
